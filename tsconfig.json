@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // modern JavaScript 지원
+    "module": "commonjs", // Node.js가 이해할 수 있는 모듈 시스템 사용
+    "esModuleInterop": true, // CommonJS 모듈을 ES6 스타일로 임포트 가능
+    "forceConsistentCasingInFileNames": true, // 파일 이름의 대소문자 일관성 강제
+    "strict": true, // 모든 엄격한 타입 검사 옵션 활성화
+    "skipLibCheck": true, // 모든 .d.ts 파일의 타입 체크 스킵
+    "outDir": "./dist", // 컴파일된 파일들을 dist 폴더에 저장
+    "rootDir": "./src", // 소스 파일이 위치한 폴더 지정
+    "moduleResolution": "node", // node 방식을 사용하여 모듈 해석
+    "resolveJsonModule": true, // JSON 모듈을 임포트 할 수 있도록 허용
+    "allowJs": true, // JavaScript 파일을 프로젝트에 포함시킬 수 있게 허용
+    "noImplicitAny": true, // any 타입을 명시적으로 선언하지 않은 경우 오류 발생
+    "removeComments": false, // 컴파일 시 주석 제거 안 함
+    "sourceMap": true // 소스맵 파일 생성, 디버깅에 유용
+  },
+  "include": ["src/**/*"], // 컴파일에 포함할 파일들
+  "exclude": ["node_modules", "**/*.spec.ts"] // 컴파일에서 제외할 파일들
+}
