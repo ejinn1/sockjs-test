@@ -3,7 +3,6 @@
     "target": "es2016", // modern JavaScript 지원
     "module": "commonjs", // Node.js가 이해할 수 있는 모듈 시스템 사용
     "esModuleInterop": true, // CommonJS 모듈을 ES6 스타일로 임포트 가능
-    "forceConsistentCasingInFileNames": true, // 파일 이름의 대소문자 일관성 강제
     "strict": true, // 모든 엄격한 타입 검사 옵션 활성화
     "skipLibCheck": true, // 모든 .d.ts 파일의 타입 체크 스킵
     "outDir": "./dist", // 컴파일된 파일들을 dist 폴더에 저장
